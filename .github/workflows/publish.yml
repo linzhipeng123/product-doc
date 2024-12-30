@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           registry-url: https://registry.npmjs.org/
-      - run: npm run build
+      - run: npm run build && cd ./build && ls
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
