@@ -1,6 +1,6 @@
-name: Publish Npm Package
+name: Publish Doc
 on:
-  pull_request:
+  push:
     branches: [ master ]
 jobs:
   project-publish:
