@@ -1,0 +1,12 @@
+{
+  "name": "product-doc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @kne/blog-maker"
+  },
+  "author": "",
+  "license": "ISC"
+}
